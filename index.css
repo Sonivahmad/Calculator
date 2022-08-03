@@ -1,0 +1,30 @@
+.container {
+    max-width: 400px;
+    background-color: rgb(236, 98, 18);
+  }
+  
+  .display {
+    height: 70px;
+    line-height: 1.5;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: right;
+    padding: 20px 10px 10px 10px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-bottom: 2px solid grey;
+    border-top: 2px solid grey;
+  }
+  
+  .btn {
+    border: 2px solid grey;
+    text-align: center;
+    line-height: 2.5;
+  }
+  .btn:hover {
+    background-color: rgb(180, 15, 15);
+    color: rgb(12, 163, 233);
+  }
