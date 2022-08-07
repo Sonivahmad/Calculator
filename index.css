@@ -17,6 +17,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     border-bottom: 2px solid grey;
     border-top: 2px solid grey;
+    color: grey;
   }
   
   .btn {
